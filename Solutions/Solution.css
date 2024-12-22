@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #000;
+    height: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card p {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media (max-width: 1200px) {
+    .card {
+        width: calc(33.33% - 20px);
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+}
+
+.myfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.colum {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+.colum h3 {
+    border-bottom: 2px solid red;
+    color: white;
+    padding-bottom: 5px;
+    padding: 5px;
+}
+.contact-para{
+    color: white;
+}
+.colum ul {
+    list-style: none;
+    padding: 0;
+}
+.colum ul li {
+    margin: 5px 0;
+}
+.colum ul li a {
+    color: white;
+    text-decoration: none;
+}
+.colum ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin:  0;
+    background-color: black;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    ;
+    font-size: 20px;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.logo img {
+    max-width: 100%;
+}
+.certifications img {
+    max-width: 50px;
+    margin: 5px;
+}

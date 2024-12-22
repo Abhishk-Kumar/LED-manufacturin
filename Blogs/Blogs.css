@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 15px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 15px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+.read-more {
+    color: #d9534f;
+    font-weight: 700;
+    text-decoration: none;
+}
+.date {
+    font-size: 12px;
+    color: #999;
+}
+
+
+.myfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.colum {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+.colum h3 {
+    border-bottom: 2px solid red;
+    color: white;
+    padding-bottom: 5px;
+    padding: 5px;
+}
+.contact-para{
+    color: white;
+}
+.colum ul {
+    list-style: none;
+    padding: 0;
+}
+.colum ul li {
+    margin: 5px 0;
+}
+.colum ul li a {
+    color: white;
+    text-decoration: none;
+}
+.colum ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin:  0;
+    background-color: black;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    ;
+    font-size: 20px;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.logo img {
+    max-width: 100%;
+}
+.certifications img {
+    max-width: 50px;
+    margin: 5px;
+}
+
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+    .image img {
+      max-height: 200px;
+    }
+  }

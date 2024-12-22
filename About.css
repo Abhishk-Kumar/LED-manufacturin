@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+  }
+  .header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .content {
+    padding: 20px;
+  }
+  .content img {
+    height: auto;
+  }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  .text h1, .text h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .text p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  .text ul {
+    list-style: none;
+    padding: 0;
+  }
+  .text ul li {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  .text ul li i {
+    color: #000;
+    margin-right: 10px;
+  }
+  .image {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .image img {
+    max-width: 700px;
+    max-height: 450px;
+    object-fit: cover;
+  }
+  .document-boxes {
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carouse-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carouse-image {
+    flex: 0 0 25%; /* Show 4 items at a time */
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .carouse-image img {
+    width: 100%;              /* Ensure full width within the rectangle */
+    height: 400px;            /* Set consistent height for all images */
+    object-fit: cover;        /* Maintain image proportions within the size */
+    border: 3px solid red;    /* Add a red border around each image */
+    border-radius: 8px;       /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+  }
+
+  /* Optional styling for fade effect */
+  .document-boxes::before, .document-boxes::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    pointer-events: none;
+    background: linear-gradient(to left, rgba(240, 240, 240, 0), #f0f0f0);
+  }
+
+  .document-boxes::after {
+    right: 0;
+    left: unset;
+    background: linear-gradient(to right, rgba(240, 240, 240, 0), #f0f0f0);
+  }
+  .conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #f5f5f5;
+}
+.car {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+.icong {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+.titlez {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 14px;
+    color: #333333;
+}
+.myfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.colum {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+.colum h3 {
+    border-bottom: 2px solid red;
+    color: white;
+    padding-bottom: 5px;
+    padding: 5px;
+}
+.contact-para{
+    color: white;
+}
+.colum ul {
+    list-style: none;
+    padding: 0;
+}
+.colum ul li {
+    margin: 5px 0;
+}
+.colum ul li a {
+    color: white;
+    text-decoration: none;
+}
+.colum ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin:  0;
+    background-color: black;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    ;
+    font-size: 20px;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.logo img {
+    max-width: 100%;
+}
+.certifications img {
+    max-width: 50px;
+    margin: 5px;
+}
+
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+    .image img {
+      max-height: 200px;
+    }
+  }

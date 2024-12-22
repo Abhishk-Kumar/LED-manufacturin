@@ -1,0 +1,145 @@
+.conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #f5f5f5;
+}
+.car {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+.icong {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+.titlez {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 14px;
+    color: #333333;
+}
+.mycont {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.map {
+    flex: 1;
+    margin-right: 20px;
+}
+.form-container {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+  
+}
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+.form-container h2 span {
+    color: #e74c3c;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container form input,
+.form-container form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+.form-container form input[type="submit"] {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+}
+.form-container form input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+
+.myfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.colum {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+.colum h3 {
+    border-bottom: 2px solid red;
+    color: white;
+    padding-bottom: 5px;
+    padding: 5px;
+}
+.contact-para{
+    color: white;
+}
+.colum ul {
+    list-style: none;
+    padding: 0;
+}
+.colum ul li {
+    margin: 5px 0;
+}
+.colum ul li a {
+    color: white;
+    text-decoration: none;
+}
+.colum ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin:  0;
+    background-color: black;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    ;
+    font-size: 20px;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.logo img {
+    max-width: 100%;
+}
+.certifications img {
+    max-width: 50px;
+    margin: 5px;
+}
