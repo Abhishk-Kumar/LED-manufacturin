@@ -161,7 +161,7 @@ text-decoration: none;
 color: #007BFF;
 }
 .contact-bg{
-    background: url(images/bg-all.jpg);
+    background: url(../images/bg-all.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
