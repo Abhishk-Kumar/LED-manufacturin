@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Section</title>
+    <title>LED-Manufacturin</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Home.css">
 </head>
 <body>
     <div class="header">
         <!-- Company Logo -->
         <div class="company-logo">
-            <img src="images/logo.jpg" alt="Company Logo">
+            <img src="images/jonaled.png" alt="Company Logo">
         </div>
-
+        <div class="toggle-collapse">
+          <div class="toggle-icons ">
+              <span><i class="fa-solid fa-bars"></i></span>
+          </div>
+      </div>
         <!-- Sections -->
         <div class="sections">
             <!-- Address Section -->
@@ -52,7 +56,8 @@
         <div class="navBar">
             <div class="navLeft">
                 <div class="leftElem"><i class="ri-home-9-fill"></i></div>
-                <div class="leftElem">Products <i class="ri-arrow-down-s-fill"></i>
+                <div>
+                <a href="Product.html" class="leftElem">Products <i class="ri-arrow-down-s-fill"></i></a>
                     <div class="dropdown drop-1st">
                         <ul class="drop-menu">
                             <li><h3>Product 1</h3>
@@ -88,7 +93,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="leftElem">Led Controller <i class="ri-arrow-down-s-fill"></i>
+                <a href="Control.html" class="leftElem">Led Controller <i class="ri-arrow-down-s-fill"></i></a>
                     <div class="dropdown drop-2nd">
                         <ul class="drop-menu">
                             <li><h3>Controller 1</h3>
@@ -117,7 +122,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                
                 <div class="leftElem">Gallery <i class="ri-arrow-down-s-fill"></i>
                     <div class="dropdown drop-3rd">
                         <ul class="menu-links"> 
@@ -126,10 +131,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="leftElem">Solutions</div>
-                <div class="leftElem">E-Waste</div>
-                <div class="leftElem">Blogs</div>
-                <div class="leftElem">Contact Us</div>
+                <a href="Solution.html" class="leftElem">Solutions</a>
+                <a href="Ewaste.html" class="leftElem">E-Waste</a>
+                <a href="Blogs.html" class="leftElem">Blogs</a>
+                <a href="Contact.html" class="leftElem">Contact Us</a>
             </div>
 
             <div class="navRight">
@@ -218,7 +223,7 @@
     <div class="add-info">
        
   <div class="main-heading">Why Choose Us as Your Trusted LED Manufacturer and Supplier</div>
-  <div class="container">
+  <div class="continer">
     <div class="box">
       <i class="fas fa-industry icon"></i>
       <div class="separator"></div>
@@ -1060,6 +1065,7 @@
 
  
 </script>
+<script src="script.js"></script>
 
 </body>
 </html>
