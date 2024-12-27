@@ -1048,6 +1048,17 @@ background-color: rgba(255, 255, 255, 1);
     max-width: 50px;
     margin: 5px;
 }
+.foot{
+    background-color: #333; 
+    color: #f8cb2e; 
+    text-align: center; 
+    padding: 10px 0;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+    font-size: 14px; 
+}
+
 
 
 .toggle-collapse{
@@ -1059,6 +1070,7 @@ background-color: rgba(255, 255, 255, 1);
     width: 92%;  
     cursor: pointer;
 }
+
 @media screen and (max-width: 1000px) {
     .header {
         max-width: 100%;
