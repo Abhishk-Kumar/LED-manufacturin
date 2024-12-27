@@ -10,11 +10,11 @@ body{
 .header {
     width: 100%;
     height: 160px;
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: black;
     padding:  0 120px;
     box-sizing: border-box;
     
@@ -67,14 +67,14 @@ body{
  .navBar{
 display: flex;
 justify-content: space-between;
-background-color: #BE0E15;
+background-color: #f8cb2e;
 margin: 0 5rem;
 position: relative;
 top: -25px;
 height: auto;
 padding: 1.5rem 1rem;
 font-size: 1.1rem;
-color: #F7FDFD;
+color: black;
 
 }
 
@@ -146,10 +146,10 @@ max-width: 1200px;
 
 .leftElem{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .leftElem:hover{
-    color: grey;
+    color: white;
 }
 
 
@@ -172,7 +172,7 @@ color: #007BFF;
 
 }
 .sub-text #one{
-color: #b71c1c;
+color: #f8cb2e;
 text-decoration: none;
 margin-right: 4px;
 }
@@ -189,6 +189,7 @@ margin-right: 4px;
     position: relative;
     z-index: 1;
     padding-top: 20px;
+    margin-top: 5px;
 }
 .sub-text{
     font-size: 18px;
@@ -237,7 +238,7 @@ margin-right: 4px;
 }
 .section-content ul li::before {
     content: "•";
-    color: red;
+    color: #f8cb2e;
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -246,7 +247,7 @@ margin-right: 4px;
 .read-more {
     display: inline-block;
     padding: 10px 20px;
-    background-color: red;
+    background-color: #f8cb2e;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -263,7 +264,7 @@ margin-right: 4px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
+    background-color: white;
 }
 .colum {
     flex: 1;
@@ -272,13 +273,14 @@ margin-right: 4px;
     padding-top: 10px;
 }
 .colum h3 {
-    border-bottom: 2px solid red;
-    color: white;
+    border-bottom: 2px solid #f8cb2e;
+    color: black;
     padding-bottom: 5px;
     padding: 5px;
+    margin-bottom: 12px;
 }
 .contact-para{
-    color: white;
+    color:black;
 }
 .colum ul {
     list-style: none;
@@ -288,7 +290,7 @@ margin-right: 4px;
     margin: 5px 0;
 }
 .colum ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .colum ul li a:hover {
@@ -302,10 +304,10 @@ margin-right: 4px;
     display: flex;
     justify-content: center;
     margin:  0;
-    background-color: black;
+    background-color: white;
 }
 .social-icons a {
-    color: #fff;
+    color: black;
     margin: 0 10px;
     ;
     font-size: 20px;
@@ -313,8 +315,8 @@ margin-right: 4px;
 .footer-text {
     text-align: center;
     padding: 20px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 .logo img {
     max-width: 100%;

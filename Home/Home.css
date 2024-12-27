@@ -11,12 +11,13 @@ body{
 .header {
     width: 100%;
     height: 160px;
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: black;
     padding: 0 120px;
+    box-sizing: border-box;
 }
 
 .company-logo {
@@ -27,28 +28,34 @@ body{
     width: 100%;
     height: 70px;
 }
-
+.section h4{
+    margin: 0;
+}
 .sections {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .section {
     display: flex;
     align-items: center;
     margin-left: 30px;
-
+    color: black;
+    gap: 0.5rem;
 }
 
 .section-logo {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
 }
 
 .section-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .section-text h4, 
@@ -61,27 +68,26 @@ body{
  .navBar{
 display: flex;
 justify-content: space-between;
-background-color: #BE0E15;
+background-color: #f8cb2e;
 margin: 0 5rem;
 position: relative;
 top: -25px;
 height: auto;
 padding: 1.5rem 1rem;
 font-size: 1.1rem;
-color: #F7FDFD;
+color: black;
 
 }
 
 .navLeft, .navRight{
 display: flex;
 align-items: center;
-
 cursor: pointer;
 gap: 1rem;
 }
 
 .navRight{
-border-left: 1px solid #F7FDFD;
+border-left: 1px solid #f0f0f0;
 padding-left: 1rem;
 }
 
@@ -138,7 +144,7 @@ max-width: 1200px;
 }
 .leftElem{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .leftElem:hover{
     color: grey;
@@ -181,7 +187,7 @@ color: #666;
 margin-bottom: 20px;
 }
 .content .btn {
-background-color: #c00;
+background-color: #f8cb2e;
 color: #fff;
 padding: 10px 20px;
 text-decoration: none;
@@ -288,7 +294,7 @@ height: 700px;
 .know h5{
 width: 150px;
 height: 40px;
-background-color: #BE0E15;
+background-color: #f8cb2e;
 border: 1px solid black;
 text-align: center;
 padding-top: 10px;
@@ -372,7 +378,7 @@ width: 90%;
     margin: 0;
 }
 .head p {
-    color: #e74c3c;
+    color: #f8cb2e;
     font-weight: bold;
     margin: 0;
 }
@@ -412,7 +418,7 @@ width: 90%;
     color: #ccc;
 }
 .quote-button {
-    background-color: #e74c3c;
+    background-color: #f8cb2e;
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -451,7 +457,7 @@ width: 90%;
     margin: 10px 0 0;
 }
 .more-sectors {
-    background-color: #d32f2f;
+    background-color: #f8cb2e;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -486,7 +492,7 @@ width: 90%;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #d32f2f;
+    background-color: #f8cb2e;
     color: #fff;
     padding: 10px;
     border-radius: 50%;
@@ -574,7 +580,7 @@ background-color: rgba(255, 255, 255, 1);
     padding: 20px;
 }
 .image-box {
-    border: 2px solid red;
+    border: 2px solid #f8cb2e;
     padding: 10px;
 }
 .image-box img {
@@ -611,7 +617,7 @@ background-color: rgba(255, 255, 255, 1);
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: red;
+    background-color: #f8cb2e;
     color: white;
     padding: 10px;
     border-radius: 50%;
@@ -641,7 +647,7 @@ background-color: rgba(255, 255, 255, 1);
     width: 100%;              /* Ensure full width within the rectangle */
     height: 400px;            /* Set consistent height for all images */
     object-fit: cover;        /* Maintain image proportions within the size */
-    border: 3px solid red;    /* Add a red border around each image */
+    border: 3px solid #f8cb2e;    /* Add a red border around each image */
     border-radius: 8px;       /* Optional: rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
   }
@@ -678,7 +684,7 @@ background-color: rgba(255, 255, 255, 1);
 .underline {
     width: 50px;
     height: 3px;
-    background-color: red;
+    background-color: #f8cb2e;
     margin: 0 auto 20px;
 }
 .video-gallery {
@@ -701,7 +707,7 @@ background-color: rgba(255, 255, 255, 1);
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3em;
-    color: red;
+    color: #f8cb2e;
 }
 
 
@@ -737,7 +743,7 @@ background-color: rgba(255, 255, 255, 1);
 }
 .clients hr {
     width: 50px;
-    border: 2px solid red;
+    border: 2px solid #f8cb2e;
     margin: 10px auto 30px;
 }
 .client-logos {
@@ -781,7 +787,7 @@ background-color: rgba(255, 255, 255, 1);
     gap: 20px;
 }
 .testimonial {
-    background-color: #8B0000;
+    background-color: #f8cb2e;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -852,7 +858,7 @@ background-color: rgba(255, 255, 255, 1);
     color: #666;
 }
 .blog-content a {
-    color: red;
+    color: #f8cb2e;
     text-decoration: none;
     font-weight: bold;
 }
@@ -864,7 +870,7 @@ background-color: rgba(255, 255, 255, 1);
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color: #f8cb2e;
     border-radius: 50%;
     margin: 0 5px;
 }
@@ -888,7 +894,7 @@ background-color: rgba(255, 255, 255, 1);
 }
 .icong {
     font-size: 40px;
-    color: #b71c1c;
+    color: #f8cb2e;
     margin-bottom: 10px;
 }
 .titlez {
@@ -898,7 +904,7 @@ background-color: rgba(255, 255, 255, 1);
 }
 .text {
     font-size: 14px;
-    color: #333333;
+    color: black;
 }
 
 .mybox {
@@ -930,8 +936,10 @@ background-color: rgba(255, 255, 255, 1);
     max-width: 50%;
     padding: 20px;
 }
+
 .faq-image img {
     width: 100%;
+    color: #f8cb2e;
 }
 .faq-list {
     flex: 1;
@@ -939,7 +947,7 @@ background-color: rgba(255, 255, 255, 1);
     padding: 20px;
 }
 .faq-list .faq-item {
-    background-color: #d32f2f;
+    background-color: #f8cb2e;
     color: #fff;
     padding: 15px;
     margin: 10px 0;
@@ -978,7 +986,8 @@ background-color: rgba(255, 255, 255, 1);
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
+    background-color: white;
+    
 }
 .colum {
     flex: 1;
@@ -987,13 +996,14 @@ background-color: rgba(255, 255, 255, 1);
     padding-top: 10px;
 }
 .colum h3 {
-    border-bottom: 2px solid red;
-    color: white;
+    border-bottom: 2px solid #f8cb2e;
+    color: black;
     padding-bottom: 5px;
     padding: 5px;
+    margin-bottom: 12px;
 }
 .contact-para{
-    color: white;
+    color: black;
 }
 .colum ul {
     list-style: none;
@@ -1003,7 +1013,7 @@ background-color: rgba(255, 255, 255, 1);
     margin: 5px 0;
 }
 .colum ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .colum ul li a:hover {
@@ -1017,10 +1027,10 @@ background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
     margin:  0;
-    background-color: black;
+    background-color: white;
 }
 .social-icons a {
-    color: #fff;
+    color: black;
     margin: 0 10px;
     ;
     font-size: 20px;
@@ -1028,8 +1038,8 @@ background-color: rgba(255, 255, 255, 1);
 .footer-text {
     text-align: center;
     padding: 20px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 .logo img {
     max-width: 100%;

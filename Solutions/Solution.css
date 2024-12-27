@@ -10,11 +10,11 @@ html,body{
 .header {
     width: 100%;
     height: 160px;
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: black;
     padding:  0 120px;
     box-sizing: border-box;
     
@@ -67,14 +67,14 @@ html,body{
  .navBar{
 display: flex;
 justify-content: space-between;
-background-color: #BE0E15;
+background-color: #f8cb2e;
 margin: 0 5rem;
 position: relative;
 top: -25px;
 height: auto;
 padding: 1.5rem 1rem;
 font-size: 1.1rem;
-color: #F7FDFD;
+color: black;
 
 }
 
@@ -92,11 +92,10 @@ padding-left: 1rem;
 }
 .leftElem{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .leftElem:hover{
-    color: grey;
-}
+color:white;}
 
 .leftElem, .social {
 cursor: pointer;
@@ -168,14 +167,14 @@ color: #007BFF;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 210px;
 }
 .contact-text{
     padding: 20px 5%;
 
 }
 .sub-text #one{
-color: #b71c1c;
+color: #f8cb2e;
 text-decoration: none;
 margin-right: 4px;
 }
@@ -203,10 +202,7 @@ margin-right: 4px;
     margin-top: 7px;
     /* padding-right: 290px; */
 }
-.hop {
-    background-color: #000;
-    height: 50px;
-}
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -234,7 +230,7 @@ margin-right: 4px;
     margin-top: 1rem;
     text-align: center;
     font-size: 1.1rem;
-    color: #333;
+    color: black;
 }
 
 
@@ -243,7 +239,7 @@ margin-right: 4px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
+    background-color: white;
 }
 .colum {
     flex: 1;
@@ -252,13 +248,14 @@ margin-right: 4px;
     padding-top: 10px;
 }
 .colum h3 {
-    border-bottom: 2px solid red;
-    color: white;
+    border-bottom: 2px solid #f8cb2e;
+    color: black;
     padding-bottom: 5px;
     padding: 5px;
+    margin-bottom: 12px;
 }
 .contact-para{
-    color: white;
+    color: black;
 }
 .colum ul {
     list-style: none;
@@ -268,7 +265,7 @@ margin-right: 4px;
     margin: 5px 0;
 }
 .colum ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .colum ul li a:hover {
@@ -282,10 +279,10 @@ margin-right: 4px;
     display: flex;
     justify-content: center;
     margin:  0;
-    background-color: black;
+
 }
 .social-icons a {
-    color: #fff;
+    color: black;
     margin: 0 10px;
     ;
     font-size: 20px;
@@ -293,8 +290,8 @@ margin-right: 4px;
 .footer-text {
     text-align: center;
     padding: 20px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 .logo img {
     max-width: 100%;
